@@ -1,5 +1,5 @@
 FROM alpine
 
-RUN mkdir /opt/nokia
-COPY hello.sh /opt/nokia
-CMD /opt/nokia/hello.sh
+RUN mkdir /tmp/nokia
+COPY hello.sh /tmp/nokia
+CMD /tmp/nokia/hello.sh
