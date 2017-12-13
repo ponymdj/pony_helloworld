@@ -1,6 +1,3 @@
-#include "stdio.h"
+#!/bin/sh
 
-void main()
-{
-	printf("hello world");
-}
+echo "hello world"
