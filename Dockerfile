@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM alpine
 
 RUN mkdir -p /opt/nokia/etc
 COPY hello.c /opt/nokia/etc/
