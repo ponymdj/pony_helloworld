@@ -1,5 +1,5 @@
 FROM alpine
 
-RUN mkdir -p /opt/nokia/etc
-COPY hello.c /opt/nokia/etc/
-CMD make /opt/nokia/etc/hello.c
+RUN mkdir /opt/nokia
+COPY hello.sh /opt/nokia
+CMD /opt/nokia/hello.sh
